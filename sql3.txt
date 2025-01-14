@@ -1,0 +1,8 @@
+update
+	reservas.reserva
+set
+	estado =:estado,
+	fecha =:fecha,
+	horario_id =:horario_id
+where
+	id =:reserva_id;

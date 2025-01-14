@@ -1,0 +1,9 @@
+select
+	h.detalle
+from
+	reservas.horario h
+left join reservas.reserva r on
+	r.horario_id = h.id
+	and r.fecha = :fecha
+where
+	r.horario_id is null

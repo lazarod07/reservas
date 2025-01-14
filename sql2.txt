@@ -1,0 +1,10 @@
+insert
+	into
+	reservas.reserva (cliente_id,
+	horario_id,
+	estado,
+	fecha)
+values(:cliente_id,
+:horario_id,
+1,
+:fecha);

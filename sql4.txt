@@ -1,0 +1,5 @@
+delete
+from
+	reservas.reserva
+where
+	id =:reserva_id;
